@@ -30,5 +30,3 @@ class MDElogin:
         aadToken = jsonResponse["access_token"]
 
         return aadToken
-
-logintoken = MDElogin('f22494a6-c485-4648-a3e6-4ed455ef0c4b', 'c3a5c924-da08-4df8-af03-a7df95bfdf99', 'Wld_U8hJQHLf-bg~84EUA.54pU_SlKO3qc')
