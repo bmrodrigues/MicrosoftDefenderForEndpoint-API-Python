@@ -2,14 +2,14 @@ import json
 import urllib.request
 import urllib.parse
 
-class login:
+class MDElogin:
 
     def __init__(self, tenantId, appId, appSecret):
         self.tenantId = tenantId
         self.appId = appId
         self.appSecret = appSecret
 
-    def login(self):
+    def __repr__(self):
      
         url = "https://login.windows.net/%s/oauth2/token" % (self.tenantId)
 
